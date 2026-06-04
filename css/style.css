@@ -1,0 +1,111 @@
+
+/* #region font*/
+
+/* #endregion font*/
+
+
+
+/* #region base*/
+:root{
+    --color-main: #505050;;
+    --color-title: #0D96A0;
+    --font-ns: "Noto Sans JP", sans-serif;;
+}
+
+
+html{
+    -webkit-appearance: none;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    /*scroll-padding-top: ;
+    ヘッダーの高さが分かり次第入れる*/
+    word-break: break-all;
+    font-size: 10px;
+}
+
+body{
+    color: var(--color-main);
+    /*font-weight: ;*/
+    font-family: var(--font-ns);
+    font-size: 1.8rem;
+    line-height: calc(33/18);
+    font-optical-sizing: auto;
+    font-style: normal;
+    /*margin-top: ;
+    ヘッダーの高さが分かり次第入れる*/
+}
+
+/* #endregion base*/
+
+
+/* #region common*/
+
+
+/*ブレークポイント*/
+
+
+
+/*画像に関して*/
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*入れ物に関して*/
+
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.inner{
+    max-width: 88rem;
+    margin-inline: auto;
+}
+
+
+
+/* #endregion common*/
+
+/* #region header*/
+
+/* #endregion header*/
+
+
+/* #region mv */
+
+/* #endregion mv */
+
+
+/* #region vision */
+
+/* #endregion vision */
+
+
+/* #region strength*/
+
+/* #endregion strength*/
+
+
+
+/* #region service*/
+
+/* #endregion service*/
+
+/* #region info*/
+
+/* #endregion info*/
+
+/* #region access*/
+
+/* #endregion access*/
+
+/* #region form*/
+
+/* #endregion form*/
+
+/* #region footer*/
+
+/* #endregion footer*/
