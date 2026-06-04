@@ -1,5 +1,7 @@
 
 /* #region font*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+/*Bold 700   Medium 500*/
 
 /* #endregion font*/
 
@@ -25,12 +27,12 @@ html{
 
 body{
     color: var(--color-main);
-    /*font-weight: ;*/
-    font-family: var(--font-ns);
     font-size: 1.8rem;
-    line-height: calc(33/18);
+    font-family: var(--font-ns);
     font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
+    line-height: calc(33/18);
     /*margin-top: ;
     ヘッダーの高さが分かり次第入れる*/
 }
@@ -66,10 +68,81 @@ img{
 }
 
 
-
 /* #endregion common*/
 
 /* #region header*/
+.header{
+    width: 100%;
+    height: 5rem;
+    padding-inline: 2rem;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:9999;
+}
+
+@media (max-width: 786px) {
+  .header{
+    padding-inline: 2rem;
+}
+}
+
+.header .inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo a{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: var(--color-main);
+    text-align: center;
+}
+
+.header__logo a h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+@media (max-width: 786px) {
+  .header__logo a h1{
+    font-size: 2rem;
+    line-height: calc(20/30);
+}
+}
+
+
+
+
+.header__nav ul{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+@media (max-width: 786px) {
+  .header__nav ul{
+    display: none;
+}
+}
+
+.header__nav ul li{
+    list-style:none;
+}
+
+.header__nav ul li a{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-main);
+    text-align: center;
+    line-height: calc(14/14);
+}
 
 /* #endregion header*/
 
