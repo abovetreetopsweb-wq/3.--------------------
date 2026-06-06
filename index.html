@@ -1,49 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- ogp -->
-    <meta property="og:title" content="サイトのタイトル">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="SNSシェア時に表示するサムネイル画像の絶対パス">
-    <meta property="og:url" content="サイトのURL">
-    <meta property="og:description" content="サイトのディスクリプション">
-    <meta property="og:site_name" content="サイトのタイトル">
-    <meta property="og:locale" content="ja_JP">
-    <meta property="fb:app_id" content="15文字のアプリID">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@XアカウントID">
+    <meta property="og:title" content="サイトのタイトル" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="SNSシェア時に表示するサムネイル画像の絶対パス"
+    />
+    <meta property="og:url" content="サイトのURL" />
+    <meta property="og:description" content="サイトのディスクリプション" />
+    <meta property="og:site_name" content="サイトのタイトル" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="fb:app_id" content="15文字のアプリID" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@XアカウントID" />
     <!-- css -->
-     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <!--header-->
-        <header class="header">
-            <div class="inner">
-                <div class="header__logo">
-                    <a href="#">
-                        <img src="./img/title-icon.svg" alt="肉球アイコン">
-                        <h1>滑石きたむら動物病院</h1>
-                    </a>
-                </div>
-                <div class="header__nav">
-                    <ul>
-                        <li><a href="#vision">ご挨拶</a></li>
-                        <li><a href="#strength">強み</a></li>
-                        <li><a href="#service">サービス</a></li>
-                        <li><a href="#info">お知らせ</a></li>
-                        <li><a href="#access">アクセス</a></li>
-                        <li><a href="#form">お問い合わせ</a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-
+      <!--header-->
+      <header class="header">
+        <div class="inner">
+          <div class="header__logo">
+            <a href="#">
+              <img src="./img/title-icon.svg" alt="肉球アイコン" />
+              <h1>滑石きたむら動物病院</h1>
+            </a>
+          </div>
+          <div class="header__nav">
+            <ul>
+              <li><a href="#vision">ご挨拶</a></li>
+              <li><a href="#strength">強み</a></li>
+              <li><a href="#service">サービス</a></li>
+              <li><a href="#info">お知らせ</a></li>
+              <li><a href="#access">アクセス</a></li>
+              <li><a href="#form">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main class="main">
         <!--mv-->
+        <div class="mv">
+          <div class="mv__contents">
+            <div class="mv__image">
+              <picture>
+                <source media="(min-width: 768px)" srcset="./img/mv-pc.jpg" />
+                <img src="./img/mv-sp.jpg" alt="" />
+              </picture>
+            </div>
+              <div class="mv__textarea mv-texts">
+                <div class="mv-text">
+                  <div class="mv__subcopy"><h3>滑石きたむら動物病院は</h3></div>
+                  <div class="mv__catch">
+                    <h2>大切な家族の<br />ホームドクターです</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
 
         <!--vision-->
 
@@ -51,13 +74,14 @@
 
         <!--service-->
 
-        <!--info-->
+        <!--news-->
 
         <!--access-->
 
         <!--form-->
+      </main>
 
-        <!--footer-->
-    </div>    
-</body>
+      <!--footer-->
+    </div>
+  </body>
 </html>
