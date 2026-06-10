@@ -657,6 +657,140 @@ img{
 
 /* #region access*/
 
+.access{
+    padding: 6.5rem 2rem 6.9rem;
+}
+
+@media (max-width: 768px) {
+  .access{
+    padding: 4.4rem 2rem 5rem;
+}
+}
+.access__contents{
+    margin-top: 4rem;
+    display: flex;
+    column-gap: 4.5rem;
+}
+
+@media (max-width: 768px) {
+  .access__contents{
+    margin-top: 4.2rem;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+}
+
+
+.access__map{
+    flex: 1;
+}
+
+.access__map img{
+    aspect-ratio: 440/300;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .access__map img{
+    aspect-ratio: 335/222;
+    object-fit: cover;
+}
+
+}
+
+.access__address{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.access__address h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: calc(33/22);
+}
+
+.access__address address{
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    line-height: calc(27/18);
+}
+
+@media (max-width: 768px) {
+  .access__address address{
+    font-size: 1.6rem;
+    line-height: calc(24/16);
+}
+}
+
+.access__address span{
+    font-size: 1.8rem;
+    line-height: calc(27/18);
+}
+
+@media (max-width: 768px) {
+  .access__address span{
+    font-size: 1.6rem;
+    line-height: calc(27/16);
+}
+}
+
+.access__padding{
+    margin-top: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+}
+
+@media (max-width: 786px) {
+  .access__padding{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+}
+
+.access__tel{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: calc(40/25);
+    color: var(--color-title);
+}
+
+
+.access__email{
+    font-size: 1.8rem;
+    line-height: calc(27/18);
+}
+
+@media (max-width: 768px) {
+  .access__email{
+    font-size: 1.6rem;
+    line-height: calc(24/16);
+}
+}
+
+.access__address p{
+    margin-top: 2.7rem;
+    width: 390px;
+    font-size: 1.8rem;
+    line-height: calc(40/18);
+    border-block:1px solid #000;
+    padding-block: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .access__address p{
+    margin-top: 1.4rem;
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: calc(30/16);
+    padding-block: 1.2rem;
+}
+}
+
 /* #endregion access*/
 
 /* #region form*/
