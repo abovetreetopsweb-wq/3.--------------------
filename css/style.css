@@ -794,6 +794,155 @@ img{
 /* #endregion access*/
 
 /* #region form*/
+.contact{
+    padding: 6.5rem 2rem 8rem;
+}
+
+@media (max-width: 768px) {
+  .contact{
+    padding: 4.3rem 2rem 4.9rem;
+}
+}
+.contents__desc{
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    line-height: calc(30/17);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contents__desc{
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    line-height: calc(30/16);
+    text-align: left;
+}
+}
+.form{
+    max-width: 880px;
+    margin-inline: auto;
+    margin-top: 42px;
+}
+@media (max-width: 768px) {
+  .form{
+    margin-top: 3.5rem;
+}
+}
+.form__item{
+    display: flex;
+    column-gap: 2.9rem;
+}
+.form__item:not(:first-of-type){
+    margin-top:2.9rem;
+}
+
+@media (max-width: 768px) {
+  .form__item{
+    flex-direction: column;
+    row-gap: 0.4rem;
+}
+.form__item:not(:first-of-type){
+    margin-top:1.5rem;
+}
+}
+
+
+.form__label{
+    font-size:2rem;
+    width: 140px;
+}
+@media (max-width: 768px) {
+  .form__label{
+    font-size:1.8rem;
+    line-height: calc(33/18);
+    width: 140px;
+}
+}
+
+
+
+.form__input{
+    flex: 1;
+}
+
+
+.form__textarea{
+    flex: 1;
+    line-height: 0;
+}
+
+input[type="text"],
+input[type="email"]{
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+    padding-inline: 15px;
+    font-size:16px;
+}
+
+@media (max-width: 768px) {
+  input[type="text"],
+input[type="email"]{
+    height:50px;
+    padding-inline: 15px;
+    font-size:16px;
+}
+}
+
+textarea{
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
+    resize: none;
+    padding:15px;
+    font-size:16px;
+    line-height: 1.6;
+}
+
+
+.contact__button{
+    margin-top: 50px;
+    margin-inline: auto;
+    width: 200px;
+    display: grid;
+    place-items: center;
+}
+
+@media (max-width: 768px) {
+  .contact__button{
+    margin-top: 50px;
+    width: 335px;
+}
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    background-color:var(--color-title);
+    color: #fff;
+    border:1px solid var(--color-title);
+    font-size: 25px;
+    cursor: pointer;
+    transition: .4s;
+    padding-top: 1px;
+    border-radius: 9px;
+    text-align: center;
+    line-height: calc(33/25);
+}
+
+@media (max-width: 768px) {
+  input[type="submit"]{
+    height: 41px;
+    font-size:20px;
+    line-height: calc(26/20);
+}
+}
+
+
+input[type="submit"]:hover{
+    color: var(--color-title);
+    background-color: #fff;
+}
 
 /* #endregion form*/
 
