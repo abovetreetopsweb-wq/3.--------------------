@@ -19,6 +19,8 @@
     />
     <meta property="og:site_name" content="滑石きたむら動物病院" />
     <meta property="og:locale" content="ja_JP" />
+    <!-- ファビコン -->
+    <link rel="icon" href="./img/title-icon.svg" type="image/svg+xml" />
     <!-- css -->
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css?v=100" />
@@ -76,9 +78,9 @@
               </div>
               <div class="vision__text">
                 <p>
-                  当院は地域に密着し、皆さまの大切な家族の一員である動物たちのホームドクターを目指しています。<br />
-                  緊急時だけではなく、日常のちょっとした不安や違和感などお気軽にご相談ください。<br />
-                  動物たちが健康で幸せな生活を送ることができるようサポートいたします。
+                  当院は地域に密着し、皆さまの大切な家族の一員である動物たちの<span>ホームドクターを目指しています。</span><br />
+                  緊急時だけではなく、<span>日常のちょっとした不安や違和感などお気軽にご相談ください。</span><br />
+                  動物たちが健康で幸せな生活を送ることができるよう<span>サポートいたします。</span>
                 </p>
               </div>
               <div class="vision__icon">
@@ -253,7 +255,7 @@
                     <time class="news__date" datetime="0000.00.00"
                       >0000.00.00</time
                     >
-                    <span class="news__heading">去勢手術の助成金</span>
+                    <h3 class="news__heading">去勢手術の助成金</h3>
                     <span class="news__text"
                       >長崎県より犬猫去勢手術の助成金制度が導入されました。</span
                     >
@@ -265,7 +267,7 @@
                     <time class="news__date" datetime="0000.00.00"
                       >0000.00.00</time
                     >
-                    <span class="news__heading">往診の範囲が拡大</span>
+                    <h3 class="news__heading">往診の範囲が拡大</h3>
                     <span class="news__text"
                       >往診の範囲を長崎市内から長崎県内まで拡大しました。</span
                     >
@@ -274,11 +276,9 @@
 
                 <li>
                   <a href="#">
-                    <time class="news__date" datetime="0000.00.00">0000.00.00</time 
-                    <span class="news__heading">新年のご挨拶</span>
-                    <span class="news__text"
-                      >謹賀新年。今年もよろしくお願いいたします。</span
-                    >
+                    <time class="news__date" datetime="0000.00.00">0000.00.00</time>
+                    <h3 class="news__heading">新年のご挨拶</h3>
+                    <span class="news__text">謹賀新年。今年もよろしくお願いいたします。</span>
                   </a>
                 </li>
 
@@ -287,7 +287,7 @@
                     <time class="news__date" datetime="0000.00.00"
                       >0000.00.00</time
                     >
-                    <span class="news__heading">年末年始の診療</span>
+                    <h3 class="news__heading">年末年始の診療</h3>
                     <span class="news__text"
                       >当院では年末年始も24時間休まず診療しております。</span
                     >
@@ -298,7 +298,7 @@
                     <time class="news__date" datetime="0000.00.00"
                       >0000.00.00</time
                     >
-                    <span class="news__heading">開院11周年</span>
+                    <h3 class="news__heading">開院11周年</h3>
                     <span class="news__text"
                       >開院11周年を迎えることとなりました。</span
                     >
@@ -324,7 +324,7 @@
               </div>
               <div class="access__address">
                 <h3>滑石きたむら動物病院</h3>
-                <address>〒852-8065　長崎県長崎市横尾○丁目○-○</address>
+                <address>〒852-8065　<span class="access-span">長崎県長崎市横尾○丁目○-○</span></address>
                 <div class="access__padding">
                   <span
                     >電話：<a href="tel:+00000000000" class="access__tel"
@@ -339,7 +339,9 @@
                     ></span
                   >
                 </div>
+                <div class="access__address-time">
                 <p>診療時間：24時間365日<br />休診日：なし</p>
+                </div>
               </div>
             </div>
           </div>
@@ -394,7 +396,6 @@
 
       <!--footer-->
       <footer class="footer">
-        <div class="inner">
           <div class="footer__content">
             <nav class="footer__nav footer-nav">
               <ul class="footer-nav__lists">
@@ -410,8 +411,6 @@
                 <li class="footer-nav__list">
                   <a href="#service" class="footer-nav__link">サービス</a>
                 </li>
-              </ul>
-              <ul class="footer-nav__lists">
                 <li class="footer-nav__list">
                   <a href="#news" class="footer-nav__link">お知らせ</a>
                 </li>
@@ -423,9 +422,9 @@
                 </li>
               </ul>
             </nav>
-            <p class="footer__copyright">
-              &copy;Copyright0000　<span class="ib">滑石きたむら動物病院</span>
-            </p>
+            <div class="footer__copyright">
+              <p>&copy;Copyright0000</p><p>滑石きたむら動物病院</p>
+            </div>
             <ul class="footer__sns sns">
               <li class="sns__list">
                 <a
@@ -434,7 +433,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="./img/icon_twitter.png" alt="x" />
+                  <img src="./img/icon_twitter.svg" alt="x" />
                 </a>
               </li>
               <li class="sns__list">
@@ -444,7 +443,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="./img/icon_facebook.png" alt="facebook" />
+                  <img src="./img/icon_facebook.svg" alt="facebook" />
                 </a>
               </li>
               <li class="sns__list">
@@ -454,7 +453,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="./img/icon_youtube.png" alt="youtube" />
+                  <img src="./img/icon_youtube.svg" alt="youtube" />
                 </a>
               </li>
               <li class="sns__list">
@@ -464,12 +463,11 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="./img/icon_instagram.png" alt="instagram" />
+                  <img src="./img/icon_instagram.svg" alt="instagram"/>
                 </a>
               </li>
             </ul>
           </div>
-        </div>
       </footer>
     </div>
   </body>
