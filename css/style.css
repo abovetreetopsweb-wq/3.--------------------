@@ -83,7 +83,7 @@ img{
     font-size: 2.5rem;
     line-height: calc(36/25);
     font-weight: 700;
-    color: var(--color-title);
+    color: var(--color-main);
     position: relative;
 }
 .section__title h2::before{
