@@ -158,7 +158,6 @@ img{
 }
 .header__logo-image{
     width: 2.549rem;
-    height: 2.5rem;
 }
 
 .header__logo span{
@@ -225,16 +224,6 @@ img{
     width: 100%;
 }
 
-
-.mv__image img{
-    aspect-ratio: 1080/500;
-}
-
-@media (max-width: 767px) {
-  .mv__image img{
-    aspect-ratio: 375/550;
-}
-}
 
 .mv__textarea{
     height: 100%;
@@ -373,7 +362,6 @@ padding-inline:2rem;
 .vision__icon{
     position: absolute;
     width: 8.375rem;
-    height: 7.712rem;
     bottom: 3rem;
     right: -2.6rem;
 }
@@ -381,7 +369,6 @@ padding-inline:2rem;
 @media (max-width: 980px) {
   .vision__icon {
     width: 6.835rem;
-    height: 6.294rem;
     right: 0;
   }
 }
@@ -392,11 +379,6 @@ padding-inline:2rem;
     bottom: 4.5rem;
     right: 1rem;
 }
-}
-
-.vision__icon img{
-    aspect-ratio: 83/77;
-    object-fit: cover;
 }
 
 /* #endregion vision */
@@ -458,17 +440,6 @@ padding-inline:2rem;
 @media (max-width: 767px) {
   .strength-item__image{
     width:100%;
-}
-}
-
-.strength-item__image img{
-    aspect-ratio: 440/247;
-    object-fit: cover;
-}
-
-@media (max-width: 767px) {
-  .strength-item__image img{
-    aspect-ratio: 335/200;
 }
 }
 
@@ -554,16 +525,7 @@ padding-inline:2rem;
 }
 }
 
-.service-item__image img{
-    aspect-ratio: 260/200;
-    object-fit: cover;
-}
 
-@media (max-width: 767px) {
-  .service-item__image img{
-    aspect-ratio: 335/200;
-}
-}
 
 .service-item__title{
     margin-top: 2rem;
@@ -1223,19 +1185,15 @@ display: block;
 
 .sns__link--x{
     width: 2.2rem;
-    height: 1.8rem;
 }
 .sns__link--facebook{
     width: 2.2rem;
-    height: 2.2rem;
 }
 .sns__link--youtube{
     width: 2.2rem;
-    height: 1.5rem;
 }
 .sns__link--instagram{
     width: 2rem;
-    height: 2rem;
 }
 
 
