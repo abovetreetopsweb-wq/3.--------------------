@@ -1063,9 +1063,9 @@ input[type="submit"]:hover{
 }
 
 
-@media (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 900px){
   .footer__nav{
-    padding-inline: 4rem;
+    padding-inline:4rem;
 }
 }
 
